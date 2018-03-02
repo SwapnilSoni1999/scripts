@@ -1,0 +1,5 @@
+
+cd frameworks/base && git fetch https://github.com/TeamReloaded/frameworks_base  && git cherry-pick 78d3eaf^..98615a9 && cd ../..
+wget https://raw.githubusercontent.com/akshatsinha2002/scripts/master/volte.sh && chmod 755 volte.sh && ./volte.sh
+
+fix conflicts and yo dun
