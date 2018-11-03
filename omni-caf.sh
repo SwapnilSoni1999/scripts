@@ -78,7 +78,7 @@ croot
 croot
 
 for hal in audio display media; do
-	cd $HOME/omni/hardware/$hal-caf/msm8996
+	cd $HOME/omni/hardware/qcom/$hal-caf/msm8996
 	find . -name '*.mk' -exec grep -i 'call project' {} \; -print -exec sed -i "s|\$(call project-path-for,qcom-$hal)|hardware\/qcom\/$hal-caf\/msm8996|g" {} \;
 done
 
